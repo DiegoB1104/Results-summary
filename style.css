@@ -5,7 +5,7 @@ body {
 }
 
 .izquierdo {
-  background-color: hsl(241, 81%, 54%);
+  background: linear-gradient(hsl(252, 100%, 67%), hsl(241, 81%, 54%));
   color: white;
   border-radius: 20px;
   width: 300px;
@@ -24,7 +24,7 @@ body {
 }
 
 .circulo {
-  background-color: hsla(256, 72%, 46%, 1);
+  background: linear-gradient(hsla(256, 72%, 46%, 1), hsla(241, 72%, 46%, 0));
   width: 200px;
   height: 200px;
   border-radius: 50%;
@@ -83,6 +83,10 @@ h4 {
   flex-direction: row;
   color: black;
   text-align: center;
+}
+
+.resultados h4 {
+  margin: auto;
 }
 
 .reaction {
@@ -171,7 +175,6 @@ h4 {
 }
 
 .boton {
-  background-color: hsl(241, 100%, 89%);
   color: white;
   background-color: hsl(224, 30%, 27%);
   font-weight: bold;
@@ -182,6 +185,7 @@ h4 {
   margin: 0 auto;
   margin-top: 20px;
   cursor: pointer;
+  border-color: hsl(224, 30%, 27%);
 }
 
 .boton:hover {
@@ -191,7 +195,6 @@ h4 {
 }
 
 .boton:not(:hover) {
-  background-color: hsl(224, 30%, 27%);
   color: white;
   transition: 0.5s;
 }

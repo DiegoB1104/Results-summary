@@ -83,6 +83,7 @@ h4 {
   flex-direction: row;
   color: black;
   text-align: center;
+  width: 150px;
 }
 
 .resultados h4 {
